@@ -1,0 +1,28 @@
+.anuncios {
+  padding: 30px 70px;
+  display: grid;
+  gap: 30px;
+  grid-template-rows: min-content;
+}
+
+.anuncios img {
+  display: block;
+  width: 100%;
+  min-height: 100px;
+  min-width: 150px;
+}
+
+@media (max-width: 1000px) {
+  .anuncios {
+    display: flex;
+    padding: 30px;
+    grid-row: 10;
+    background-color: #d8bfd8;
+    max-height: 200px; 
+  }
+
+  .anuncios img {
+    height: 100%;
+    object-fit: cover;
+  }
+}

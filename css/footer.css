@@ -1,0 +1,18 @@
+footer {
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  padding: 40px 0px;
+  max-width: 1500px;
+  margin: 0px;
+}
+
+footer p {
+  text-align: center;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 1000px) {
+  footer p {
+    font-size: 1rem;
+  }
+}
