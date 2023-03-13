@@ -29,6 +29,10 @@
     overflow: scroll;
   }
 
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
   .sidenav-container {
     padding: 0px 30px;
     display: flex;
